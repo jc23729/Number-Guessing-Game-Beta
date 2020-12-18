@@ -1,8 +1,9 @@
-from random import randint
-from art import logo
-
 #Choosing a random number between 1 and 100
-
+from random import randint
+#add messages 
+print("Welcome to the Number Guessing Game!")
+print("I'm thinking of a number from 1 to 100.")
+answer = randint(1,100)
 
 #make a function to set difficulty
 
