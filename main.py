@@ -15,4 +15,4 @@ from art import logo
 
 # track the number of turns and reduce by wrong if they get it wrong
 
-#Repeat the guessing functionality 
+#Repeat the guessing functionality so when it says too high or too low
