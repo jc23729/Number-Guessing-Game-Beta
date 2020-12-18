@@ -9,7 +9,7 @@ answer = randint(1,100)
 
 
 #Let the user guess a number
-
+guess = int(input("Make a guess"))
 
 #Check that number that they guess to origonal number that we had, So probably a function to guess actual answer 
 
