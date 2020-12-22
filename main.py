@@ -1,6 +1,11 @@
 #Choosing a random number between 1 and 100
 from random import randint
-#add messages 
+
+#Function to check the user's guess against actual answer 
+def check_answer(guess, answer):
+  if guess > answer:
+
+
 print("Welcome to the Number Guessing Game!")
 print("I'm thinking of a number from 1 to 100.")
 answer = randint(1,100)
@@ -11,7 +16,7 @@ answer = randint(1,100)
 #Let the user guess a number
 guess = int(input("Make a guess"))
 
-#Check that number that they guess to origonal number that we had, So probably a function to guess actual answer 
+
 
 
 # track the number of turns and reduce by wrong if they get it wrong
